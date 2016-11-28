@@ -3,53 +3,97 @@
 <html>
 <head>
 <title>panpan</title>
-        <link rel="stylesheet" type="text/css" href="panpan.css">
-        <script src="panpan.js"></script>
-<style>
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #2B3856;
-}
-
-li {
-    display: inline;
-    float: left;
-}
-
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-}
-
-li a:hover {
-    background-color: #2B547E;
-}
-
-</style>
+    <link rel="stylesheet" type="text/css" href="panpan.css">
+    <script src="panpan.js"></script>
 </head>
 
+<!-- TITLE -->
 <body>
-  <h1>PANPAN</h1>
-<ul class="menu_list">
-<li><a href=url"/panpan/Places.html">Places</a></li>
-<li><a href=url"#">Politics</a></li>
-<li><a href=url"#">Plate</a></li>
-<li><a href=url"#">Pattern</a></li>
-</ul>
-<blockquote class="fs-emphasis fs-emphasis--quote">
-					‘Thump your way through life'
-</blockquote>
-
-<div id="about us_panpan">
-  <p> I am a paragraph for now, I'll become more <span class="interesting">interesting</span> later!
-  </p>
+    <div class='jumbotron'>
+        <h1 id='header-title'>Panpan
+        </h1>
+        <h3 id='header-subheading'>it's the little things!
+        </h3>
 </div>
+
+<!-- NAVBAR --> 
+<nav>
+    <ul class="nav" id="home-nav">
+        <li id="active" class='hvr-shutter-out-horizontal' role="presentation"><a href="index.html">Home</a>
+        </li>
+        <li class='hvr-shutter-out-horizontal' role="presentation"><a href="about.html">About</a>
+        </li>
+        <li class='hvr-shutter-out-horizontal' role="presentation"><a href="places.html">Places</a>
+            <ul class="drop-menu">
+                <a href="places-london.html"><li class='hvr-shutter-out-horizontal drop' role="presentation">London</li></a>
+                <a href="places-lisbon.html"><li class='hvr-shutter-out-horizontal drop' role="presentation">Lisbon</li></a>        
+                <a href="places-stockholm.html"><li class='hvr-shutter-out-horizontal drop' role="presentation">Stockholm</li></a>
+                <a href="places-montreal"><li class='hvr-shutter-out-horizontal drop' role="presentation">Montreal</li></a>
+            </ul>
+        </li>
+        <li><a href="people.html">People</a>
+        </li>
+        <li><a href="pheww.html">Phew</a>
+        </li>
+    </ul>
+</nav>
+<!-- END OF NAVBAR -->
+
+<!-- CONTENT -->
+    <div class='container'>
+    <div class='col-md-3'>
+        <h2 class="text-center">cool thing here</h2>
+        <img src='images/coverphoto.png' class="img-responsive">
+        <br/>
+         <p>Insert cool text.</p>
+        </div>
+    <div class='col-md-3'>
+        <h2 class="text-center">second cool thing</h2>
+        <img src='images/coverphoto.jpg' class="img-responsive">
+        <br/>
+        <p>Insert cool text again.</p>
+        </div>
+    <div class='col-md-3'>
+        <h2 class="text-center">three time's the charm</h2>
+        <img src='images/coverphoto.jpg' class="img-responsive">
+        <br/>
+        <p>Textify</p>
+      </div>
+    <div class='col-md-3'>
+        <h1 class="text-center">The little things</h1>
+        <img src='images/coverphoto.png' class="img-responsive">
+        <br/>
+        <p>Insert text!</p>
+      </div></div>
+
+
+<!-- NEWSLETTER -->
+<div class="text-center">
+    <form role='form'>
+      <label for="email">Glad you asked! You can sign up to the Panpan newsletter right here</label>
+      <input type="text" name="email" >
+      <button class="btn btn-success">Send</button>
+       <p class="success messages">You did it! Thanks for joining our newsletter.</p>
+    </form>
+  </div>
+
+<!-- SOCIAL -->
+<div><center>
+<a href="https:\\www.facebook.com">
+  <img src="images\facebook.png" alt="Facebook" style="width:50px;height:50px;">
+</a>
+<a href="https:\\www.instagram.com">
+  <img src="images\instagram.png" alt="Instagram" style="width:50px;height:50px;">
+</a>
+<a href="https:\\www.twitter.com">
+  <img src="images\twitter.png" alt="Twitter" style="width:50px;height:50px;">
+</a>
+<a href="https:\\www.pinterest.com">
+  <img src="images\pinterest.png" alt="Pinterest" style="width:50px;height:50px;">
+</a>
+</center></div>
 
 </body>
 </html>
+
+
